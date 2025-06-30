@@ -1,4 +1,4 @@
-# SQL_Joins_-Inner-Left-Right-Full-_05
+# SQL_Joins_Inner-Left-Right-Full-_05
 # JOIN operations using a E-commerce dataset 
 
 This project demonstrates the use of various SQL JOIN operations (`INNER`, `LEFT`, `RIGHT`, and `FULL OUTER`) using a simple yet realistic **Customer-Order** relationship within an E-commerce domain.
