@@ -64,12 +64,14 @@ Returns all records when there is a match in either table using `UNION` of `LEFT
 
 sql
 -- INNER JOIN between Customer and Order
-`` SELECT c.customer_id, c.name, o.order_id, o.order_date
+`` 
+SELECT c.customer_id, c.name, o.order_id, o.order_date
 FROM CustomerLite c
 INNER JOIN OrderLite o
 ON c.customer_id = o.customer_id;``
 -- LEFT JOIN between Customer and Order
-`` SELECT 
+`` 
+SELECT 
     c.customer_id, 
     c.name, 
     o.order_id, 
@@ -78,7 +80,8 @@ FROM CustomerLite c
 LEFT JOIN OrderLite o
     ON c.customer_id = o.customer_id; ``
 -- RIGHT JOIN between Customer and Order
-`` SELECT 
+`` 
+SELECT 
     c.customer_id, 
     c.name, 
     o.order_id, 
