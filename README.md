@@ -12,17 +12,20 @@ The project includes:
 ---
 
 ## Project Structure
+| File Name                                   | Description                                                                 |
+|--------------------------------------------|-----------------------------------------------------------------------------|
+| `CUSTOMER_AND_ORDER.sql`                   | SQL script to create and populate `CustomerLite` and `OrderLite` tables    |
+| `Customer_and_order_for_SQL_JOIN_OPERTION.mwb` | MySQL Workbench model file with relationships                            |
+| `ER_Diagram_customer_and_order.png`        | ER diagram of the database structure                                        |
+| `ER Diagram.png`                           | Additional exported ER diagram                                               |
+| `Result_inner_join.csv`                    | Output of INNER JOIN query                                                  |
+| `Result_left_join.csv`                     | Output of LEFT JOIN query                                                   |
+| `Result_right_join.csv`                    | Output of RIGHT JOIN query                                                  |
+| `Result_FULL_OUTER_JOIN_(Simulated).csv`   | Output of FULL OUTER JOIN (simulated using UNION)                          |
+| `README.md`                                | This project documentation                                                  |
+| `LICENSE`                                  | Open-source license for reuse and distribution                             |
 
-| File Name                                           | Description |
-|----------------------------------------------------|-------------|
-| `Customer_and_order_for_SQL_JOIN_OPERTION.mwb`     | MySQL Workbench file (ER model) |
-| `SQL_JOINS.sql`                                    | SQL code demonstrating all types of JOINs |
-| `ER_Diagram.png`                                   | Visual representation of the ER model |
-| `ER_Diagram_customer_and_order.png`                | Clean alternative ER diagram for documentation |
-| `Result_inner_join.csv`                            | Output of `INNER JOIN` query |
-| `Result_left_join.csv`                             | Output of `LEFT JOIN` query |
-| `Result_right_join.csv`                            | Output of `RIGHT JOIN` query |
-| `Result_FULL_OUTER_JOIN_(Simulated).csv`           | Simulated `FULL OUTER JOIN` output using `UNION` |
+---
 
 ---
 
